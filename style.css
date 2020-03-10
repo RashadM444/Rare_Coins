@@ -1,247 +1,244 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-
-.header {
-    font-size: 43px;
-    font-weight: lighter;
-    line-height: 100%;
-    line-height: 50px;
-    margin-top: 39px;
-    margin-left: 100px;
-    margin-right: 87px;
-}
-
-
-/*__________________Main style________________*/
-
-.main {
-    max-width: 1280px;
-    margin: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: 60px;
-    justify-content: flex-start;
-    min-width: 960px;
-}
-
-.two-bars {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-
-/*__________________Bar style________________*/
-
-.bar {
-    display: flex;
-    margin: 0;
-    box-sizing: border-box;
-    max-width: 50%;
-    min-width: 400px;
-}
-
-
-/*__________________Penny style________________*/
-
-.penny {
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
-
-.frontside {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 172px;
-    height: 172px;
-}
-
-.sale {
-    display: flex;
-    font-size: 15px;
-    color: white;
-    background-color: #833AE0;
-    border-radius: 50%;
-    width: 43px;
-    height: 43px;
-    position: absolute;
-    top: 31px;
-    right: 24px;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/*__________________About style________________*/
-
-.about {
-    padding: 0;
-    width: 224px;
-    margin: 0 0 0 18px;
-}
-
-.coin-elements {
-    list-style: none;
-    margin: 0;
-    width: 100%;
-    padding: 0;
-    font-size: 12px;
-}
-
-
-/*__________________About - Coin Header________________*/
-
-.coin-header a {
-    color: #833AE0;
-    text-decoration: none;
-}
-
-
-/*__________________price Block style________________*/
-
-.price {
-    margin: 0 40px 0 40px;
-    padding: 0;
-    width: 136px;
-    height: 120px;
-}
-
-
-/*__________________price Header style________________*/
-
-.new-price {
-    margin-bottom: 0;
-}
-
-
-/*__________________Old Price________________*/
-
-.old-price {
-    color: #ebebeb;
-    margin-top: 0;
-}
-
-
-/*__________________Coin Header________________*/
-
-.coin-header {
-    color: #833AE0;
-}
-
-
-/*__________________Coin Page________________*/
-
-.coin-page {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: auto;
-    max-width: 920px;
-    min-width: 600px;
-}
-
-
-/*__________________Coins Sides________________*/
-
-.coin-sides {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-#avers {
-    width: 463px;
-    height: 463px;
-    margin: 0 0 -54px 0;
-}
-
-#revers {
-    width: 463px;
-    height: 463px;
-    margin: -54px 0 0 0;
-}
-
-
-/*__________________Coinpage Detailed info________________*/
-
-.detailed-info {
-    flex: 1;
-    background-color: rgb(225, 225, 225);
-    height: 672px;
-    padding: 12px 47px;
-    position: relative;
-    overflow: hidden;
-}
-
-.detailed-info h1 {
-    font-weight: bolder;
-    font-size: 28px;
-    line-height: 33px;
-}
-
-.detailed-info-text {
-    font-size: 12px;
-}
-
-#margin-paragraph {
-    margin: 25px 0px;
-}
-
-.sn-no {
-    font-size: 11px;
-    margin: 25px 0px;
-}
-
-#artikul {
-    color: rgb(141, 139, 139);
-    font-size: 12px;
-    font-weight: lighter;
-}
-
-.rubl {
-    font-size: 33px;
-    font-weight: bolder;
-}
-
-.coin-details {
-    font-size: 12px;
-    border-collapse: collapse;
-}
-
-.coin-details td {
-    border: 1px solid rgb(172, 170, 170);
-    padding: 3px;
-}
-
-.coin-details tr:first-child td {
-    border-top: 0ch;
-}
-
-.coin-details tr td:first-child {
-    border-left: 0ch;
-}
-
-.coin-details tr:last-child td {
-    border-bottom: 0ch;
-}
-
-.coin-details tr td:last-child {
-    border-right: 0ch;
-}
-
-tr:nth-child(odd) {
-    background-color: whitesmoke;
-}
-
-#nazad {
-    display: block;
-    padding-top: 30px;
-    color: #833AE0;
-}
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    
+    .header {
+        font-size: 43px;
+        font-weight: lighter;
+        line-height: 100%;
+        line-height: 50px;
+        margin-top: 39px;
+        margin-left: 100px;
+        margin-right: 87px;
+    }
+    /*__________________Main style________________*/
+    
+    .main {
+        max-width: 1280px;
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-left: 60px;
+        justify-content: flex-start;
+        min-width: 960px;
+    }
+    
+    .two-bars {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    /*__________________Bar style________________*/
+    
+    .bar {
+        display: flex;
+        margin: 0;
+        box-sizing: border-box;
+        max-width: 50%;
+        min-width: 400px;
+    }
+    /*__________________Penny style________________*/
+    
+    .penny {
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .frontside {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 172px;
+        height: 172px;
+    }
+    
+    .sale {
+        display: flex;
+        font-size: 15px;
+        color: white;
+        background-color: #833AE0;
+        border-radius: 50%;
+        width: 43px;
+        height: 43px;
+        position: absolute;
+        top: 31px;
+        right: 24px;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    /*__________________About style________________*/
+    
+    .about {
+        padding: 0;
+        width: 224px;
+        margin: 0 0 0 18px;
+    }
+    
+    .coin-elements {
+        list-style: none;
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        font-size: 12px;
+    }
+    /*__________________About - Coin Header________________*/
+    
+    .coin-header a {
+        color: #833AE0;
+        text-decoration: none;
+    }
+    /*__________________price Block style________________*/
+    
+    .price {
+        margin: 0 40px 0 40px;
+        padding: 0;
+        width: 136px;
+        height: 120px;
+    }
+    /*__________________price Header style________________*/
+    
+    .new-price {
+        margin-bottom: 0;
+    }
+    /*__________________Old Price________________*/
+    
+    .old-price {
+        color: #ebebeb;
+        margin-top: 0;
+    }
+    /*__________________Coin Header________________*/
+    
+    .coin-header {
+        color: #833AE0;
+    }
+    /*__________________Coin Page________________*/
+    
+    .coin-page {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto;
+        max-width: 920px;
+        min-width: 600px;
+    }
+    /*__________________Coins Sides________________*/
+    
+    .coin-sides {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    
+    #avers {
+        width: 463px;
+        height: 463px;
+        margin: 0 0 -54px 0;
+    }
+    
+    #revers {
+        width: 463px;
+        height: 463px;
+        margin: -54px 0 0 0;
+    }
+    
+    #avers-nosorog {
+        width: 550px;
+        height: 550px;
+        margin: 0 0 -54px 0;
+    }
+    
+    #revers-nosorog {
+        width: 550px;
+        height: 550px;
+        margin: -54px 0 0 0;
+    }
+    /*__________________Coinpage Detailed info________________*/
+    
+    .detailed-info {
+        flex: 1;
+        background-color: rgb(225, 225, 225);
+        height: 672px;
+        padding: 12px 47px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #nosorog-detailed-info {
+        flex: 1;
+        background-color: rgb(225, 225, 225);
+        height: 850px;
+        padding: 12px 47px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .detailed-info h1 {
+        font-weight: bolder;
+        font-size: 28px;
+        line-height: 33px;
+    }
+    
+    .detailed-info-text {
+        font-size: 12px;
+    }
+    
+    #margin-paragraph {
+        margin: 25px 0px;
+    }
+    
+    .sn-no {
+        font-size: 11px;
+        margin: 25px 0px;
+    }
+    
+    #artikul {
+        color: rgb(141, 139, 139);
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    
+    .rubl {
+        font-size: 33px;
+        font-weight: bolder;
+    }
+    
+    .coin-details {
+        font-size: 12px;
+        border-collapse: collapse;
+    }
+    
+    .coin-details td {
+        border: 1px solid rgb(172, 170, 170);
+        padding: 3px;
+    }
+    
+    .coin-details tr:first-child td {
+        border-top: 0ch;
+    }
+    
+    .coin-details tr td:first-child {
+        border-left: 0ch;
+    }
+    
+    .coin-details tr:last-child td {
+        border-bottom: 0ch;
+    }
+    
+    .coin-details tr td:last-child {
+        border-right: 0ch;
+    }
+    
+    tr:nth-child(odd) {
+        background-color: whitesmoke;
+    }
+    
+    #nazad {
+        display: block;
+        padding-top: 30px;
+        color: #833AE0;
+    }
