@@ -1,74 +1,109 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.header {
-    font-size: 43px;
-    font-weight: lighter;
-    line-height: 100%;
-    line-height: 50px;
-    margin-top: 39px;
-    margin-left: 124px;
-    margin-right: 87px;
-}
-
-
-/*__________________Main style________________*/
-
-.main {
-    max-width: 1080px;
-    margin-left: 124px;
-}
-
-
-/*__________________Bar style________________*/
-
-.bar {
-    display: flex;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-
-/*__________________Penny style________________*/
-
-.penny {
-    order: 1;
-}
-
-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 172px;
-    height: 172px;
-}
-
-
-/*__________________About style________________*/
-
-.about {
-    order: 2;
-    padding: 0;
-    width: 300px;
-}
-
-
-/*__________________price style________________*/
-
-.price {
-    order: 3;
-    flex-basis: 30%;
-}
-
-li {
-    list-style: none;
-    padding: 0;
-    margin-left: 0;
-}
-
-td {
-    font-size: 16px;
-}
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .header {
+            font-size: 43px;
+            font-weight: lighter;
+            line-height: 100%;
+            line-height: 50px;
+            margin-top: 39px;
+            margin-left: 100px;
+            margin-right: 87px;
+        }
+        /*__________________Main style________________*/
+        
+        .main {
+            max-width: 1280px;
+            margin: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-left: 60px;
+            justify-content: flex-start;
+        }
+        /*__________________Bar style________________*/
+        
+        .bar {
+            display: flex;
+            margin: 0;
+            box-sizing: border-box;
+            max-width: 690px;
+        }
+        /*__________________Penny style________________*/
+        
+        .penny {
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .frontside {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 172px;
+            height: 172px;
+        }
+        
+        .sale {
+            display: flex;
+            font-size: 15px;
+            color: white;
+            background-color: #833AE0;
+            border-radius: 50%;
+            width: 43px;
+            height: 43px;
+            position: absolute;
+            top: 31px;
+            right: 24px;
+            margin: 0;
+            justify-content: center;
+            align-items: center;
+        }
+        /*__________________About style________________*/
+        
+        .about {
+            padding: 0;
+            width: 224px;
+            margin: 0 0 0 18px;
+        }
+        
+        .coin-elements {
+            list-style: none;
+            margin: 0;
+            width: 100%;
+            padding: 0;
+            font-size: 12px;
+        }
+        /*__________________Coin Header________________*/
+        
+        .coin-header {
+            color: #833AE0;
+        }
+        /*__________________price Block style________________*/
+        
+        .price {
+            margin: 0 40px 0 40px;
+            padding: 0;
+            width: 136px;
+            height: 120px;
+        }
+        /*__________________price Header style________________*/
+        
+        .new-price {
+            margin-bottom: 0;
+        }
+        /*__________________Old Price________________*/
+        
+        .old-price {
+            color: #ebebeb;
+            margin-top: 0;
+        }
+        /*__________________Coin Header________________*/
+        
+        .coin-header {
+            color: #833AE0;
+        }
