@@ -177,6 +177,7 @@ body {
     height: 672px;
     padding: 12px 47px;
     position: relative;
+    overflow: hidden;
 }
 
 .detailed-info h1 {
@@ -211,12 +212,12 @@ body {
 
 .coin-details {
     font-size: 12px;
-    display: flex;
     border-collapse: collapse;
 }
 
 .coin-details td {
     border: 1px solid rgb(172, 170, 170);
+    padding: 3px;
 }
 
 .coin-details tr:first-child td {
@@ -241,7 +242,6 @@ tr:nth-child(odd) {
 
 #nazad {
     display: block;
-    position: absolute;
-    bottom: 40px;
-    font-size: 12px;
+    padding-top: 30px;
+    color: #833AE0;
 }
