@@ -194,6 +194,12 @@
         font-weight: lighter;
     }
     
+    .artikul {
+        color: rgb(141, 139, 139);
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    
     .rubl {
         font-size: 33px;
         font-weight: bolder;
